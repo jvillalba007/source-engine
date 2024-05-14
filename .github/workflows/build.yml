@@ -6,7 +6,7 @@ on:
 defaults:
   run:
     shell: bash
-    
+jobs:    
   build-linux-amd64:
     runs-on: ubuntu-20.04
 

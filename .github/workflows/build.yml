@@ -1,6 +1,11 @@
 name: Build
 
-on: workflow_dispatch:
+on:
+  workflow_dispatch:
+
+defaults:
+  run:
+    shell: bash
 
 jobs:
   build-linux-i386:
